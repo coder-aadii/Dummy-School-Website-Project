@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <style>
+        body {
+            font-family: "Gill Sans Extrabold", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e0f2f1;
+            /* Light blue */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #2196f3;
+            /* Darker blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header-top {
+            background-color: #1976d2;
+            /* Slightly darker blue */
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px;
+            box-sizing: border-box;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin-left: 10px;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        nav ul li:hover {
+            background-color: #1976d2;
+            /* Slightly darker blue */
+            transition: background-color 0.3s ease;
+        }
+
+        .login-signup {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .login-signup form,
+        .login-signup button {
+            display: inline-block;
+            margin-left: 10px;
+            padding: 8px 16px;
+            background-color: #1976d2;
+            /* Red */
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .login-signup button:hover {
+            background-color: #f44336;
+            /* Darker red */
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            width: 80%;
+        }
+
+        section:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #2196f3;
+            /* Darker blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .contact-info {
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2 {
+            margin-top: 0;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 5px;
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-media a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .login-signup {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <h1>ABCDXYZ Public School</h1>
+        </div>
+        <div class="header-content">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <!-- Your login form and signup button -->
+            <div class="login-signup">
+                <form id="loginForm" action="#" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password">
+                    <input type="submit" value="Login">
+                </form>
+                <a href="signup.html">
+                    <button id="signupButton">Signup</button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section id="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis vel fugiat odio laborum repudiandae quas accusantium itaque soluta tenetur sit atque ut deserunt nihil, quae earum dignissimos quo nulla voluptatibus eos delectus pariatur corrupti maiores. Obcaecati aliquid dicta debitis possimus similique reprehenderit fugit cum?</p>
+    </section>
+    <section id="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis vel fugiat odio laborum repudiandae quas accusantium itaque soluta tenetur sit atque ut deserunt nihil, quae earum dignissimos quo nulla voluptatibus eos delectus pariatur corrupti maiores. Obcaecati aliquid dicta debitis possimus similique reprehenderit fugit cum?</p>
+    </section>
+    <section id="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis vel fugiat odio laborum repudiandae quas accusantium itaque soluta tenetur sit atque ut deserunt nihil, quae earum dignissimos quo nulla voluptatibus eos delectus pariatur corrupti maiores. Obcaecati aliquid dicta debitis possimus similique reprehenderit fugit cum?</p>
+    </section>
+    <section id="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis vel fugiat odio laborum repudiandae quas accusantium itaque soluta tenetur sit atque ut deserunt nihil, quae earum dignissimos quo nulla voluptatibus eos delectus pariatur corrupti maiores. Obcaecati aliquid dicta debitis possimus similique reprehenderit fugit cum?</p>
+    </section>
+    <section id="about">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus debitis vel fugiat odio laborum repudiandae quas accusantium itaque soluta tenetur sit atque ut deserunt nihil, quae earum dignissimos quo nulla voluptatibus eos delectus pariatur corrupti maiores. Obcaecati aliquid dicta debitis possimus similique reprehenderit fugit cum?</p>
+    </section>
+
+    <!-- Other sections -->
+
+    <footer>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p>123 Main Street, City, Country</p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: info@example.com</p>
+            <div class="social-media">
+                <a href="#" target="_blank">Facebook</a>
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

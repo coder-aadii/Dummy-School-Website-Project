@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - School Website</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f0f8ff; /* Light blue */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2196f3; /* Blue */
+            margin-top: 50px;
+            font-size: 36px;
+        }
+
+        #courses {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #2196f3; /* Blue */
+        }
+
+        .course-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .course {
+            background-color: #fff;
+            border: 2px solid #2196f3; /* Blue */
+            border-radius: 5px;
+            padding: 20px;
+            margin: 20px;
+            max-width: 300px; /* Limit width for smaller screens */
+            width: calc(100% - 40px); /* Take full width on smaller screens */
+            transition: transform 0.3s ease;
+        }
+
+        .course:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .course h3 {
+            color: #2196f3; /* Blue */
+            font-size: 24px;
+        }
+
+        .course p {
+            color: #666;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Courses</h1><hr>
+    <section id="courses">
+        <div class="course-list">
+            <div class="course">
+                <h3>1st to 5th Class</h3>
+                <p>General Curriculum</p>
+            </div>
+            <div class="course">
+                <h3>6th to 8th Class</h3>
+                <p>General Curriculum</p>
+            </div>
+            <div class="course">
+                <h3>9th and 10th Class</h3>
+                <p>General Curriculum</p>
+            </div>
+            <div class="course">
+                <h3>11th and 12th Class (Science Stream)</h3>
+                <p>Subjects: Physics, Chemistry, Mathematics, Biology</p>
+            </div>
+            <div class="course">
+                <h3>11th and 12th Class (Commerce Stream)</h3>
+                <p>Subjects: Accountancy, Business Studies, Economics, Mathematics</p>
+            </div>
+            <div class="course">
+                <h3>11th and 12th Class (Humanities Stream)</h3>
+                <p>Subjects: History, Geography, Political Science, Sociology</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
